@@ -37,7 +37,7 @@ body{
   border-radius: 5px;
   background: linear-gradient(135deg, #c4e4eb, #15a6c7);
 }
-.container1 .title{
+.container .title{
     font-size: 25px;
     font-weight: 500;
 
@@ -107,6 +107,10 @@ form .input-box span.details{
   /* transform: scale(0.99); */
   background: linear-gradient(-135deg, #c4e4eb, #15a6c7);
   }
+  
+  
+  
+
  @media(max-width: 584px){
  .container{
   max-width: 100%;

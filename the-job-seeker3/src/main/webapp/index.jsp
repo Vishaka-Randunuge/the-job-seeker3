@@ -13,7 +13,7 @@
 
 </head>
 <body>
-    <div class="container">
+    <div class="containers">
         <div class="navbar">
             <div class="row">
                 <div class="col-2">
@@ -46,7 +46,7 @@
                         -All job consultants are specialized on country and the type of job on which the job seekers need advice on<br>
                     Explore our web site now!</p>
 
-                    <a href="register.html"class="btn">Register</a> <a href="login.html"class="btn">Login</a>
+                    <a href="conshome.jsp"class="btn">Register</a> <a href="login.jsp"class="btn">Login</a>
                 </div>  
             </div>
         </div>
