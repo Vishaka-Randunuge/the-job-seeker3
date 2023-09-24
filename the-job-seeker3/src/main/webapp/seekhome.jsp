@@ -27,13 +27,13 @@ ResultSet resultSet = null;
    </head>
 <body>
 
-<h1 align="center">The Job Seeker</h1>
-                <h3 align="center">RoBovine Core Values</h3><br>
+<h1 align="center">The Job Seeker</h1><br>
+                <h3 align="center">What must you know about "The Job Seeker"</h3><br>
                 <ul align="center">
-                   <li>Applying cutting-edge engineering to dairy farmers everyday needs</li> <br>
-                   <li>Best-in-class performance that improves human and animal lives</li> <br>
-                   <li>Industry-leading reliability and customer service</li> <br>
-                   <li>Environmentally conscious</li> <br>
+                   <li>All the consultants are part-time volunteers.</li> <br>
+                   <li>Respect their time restrictions and days of availability</li> <br>
+                   <li>You can find out your own consultant by your preferences</li> <br>
+                   <li>And contact them when you need and you must alert the receptionist after your appointments</li> <br>
                 </ul>
                       
                 <br><br>
@@ -122,6 +122,6 @@ e.printStackTrace();
 }
 %>
 </table> 
-
+<a href="login.jsp"> <button color="red" class="btn1">Logout</button></a>
 </body>
 </html>

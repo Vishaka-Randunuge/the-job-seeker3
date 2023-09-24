@@ -27,18 +27,17 @@ ResultSet resultSet = null;
    </head>
 <body>
 
-<h1 align="center">The Job Seeker</h1>
-                <h3 align="center">RoBovine Core Values</h3><br>
+<h1 align="center">The Job Seeker</h1><br>
+                <h3 align="center">About the "The Job Seeker"</h3><br>
                 <ul align="center">
-                   <li>Applying cutting-edge engineering to dairy farmers everyday needs</li> <br>
-                   <li>Best-in-class performance that improves human and animal lives</li> <br>
-                   <li>Industry-leading reliability and customer service</li> <br>
-                   <li>Environmentally conscious</li> <br>
+                   <li>You, the consultants are able to see who are registered for this service.</li> <br>
+                   <li>You can find who you think are compatible with your skills, and </li> <br>
+                   <li>Contact them via their contact information,</li> <br>
+                   <li>Give any updates to the receptionist directly.</li> <br>
                 </ul>
                       
                 <br><br>
                 <h3 align="center">Sort Preferences : 
-
                 <a href="#countrycon"> <button class="btn">Countries</button></a>
                 <a href="#jobcon"> <button class="btn">Jobs</button></a>
                 </h3>   
@@ -116,6 +115,6 @@ e.printStackTrace();
 }
 %>
 </table> 
-
+<a href="login.jsp"> <button color="red" class="btn1">Logout</button></a>
 </body>
 </html>

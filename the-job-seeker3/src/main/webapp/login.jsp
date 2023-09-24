@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title> Registration| TheJobs</title>
+    <title> Login| TheJobs</title>
     <link rel="stylesheet" href="style.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -10,7 +10,7 @@
    </head>
 <body>
   <div class="container">
-    <div class="title">Login</div>
+    <div class="title">Login as Job Seeker</div>
     <div class="content">
       <form action="<%=request.getContextPath()%>/seekhome.jsp" method="post">
         <div class="user-details">
