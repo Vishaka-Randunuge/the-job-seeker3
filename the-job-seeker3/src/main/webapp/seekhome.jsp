@@ -22,7 +22,7 @@ ResultSet resultSet = null;
 <html>
 <head>
     <meta charset="UTF-8">
-    <title> Seeker Home | TheJobs</title>
+    <title> Consultant Home | TheJobs</title>
     <link rel="stylesheet" href="table.css">
    </head>
 <body>
@@ -38,10 +38,13 @@ ResultSet resultSet = null;
                       
                 <br><br>
                 <h3 align="center">Sort Preferences : 
-                <a href="#countryseek"class="btn">Countries</a>
-                <a href="#jobseek"class="btn">Jobs</a>
+
+                <a href="#countryseek"> <button class="btn">Countries</button></a>
+                <a href="#jobseek"> <button class="btn">Jobs</button></a>
                 </h3>   
 
+
+                
 
 <h2 align="center" id="countryseek">Country preferences</h2>
 <table border="1" class="center">
@@ -51,14 +54,15 @@ ResultSet resultSet = null;
 <td class="data">Phone Number</td>
 <td class="data">Email</td>
 <td class="data">Job</td>
-
+<td class="data">Time</td>
+<td class="data">Day</td>
 
 </tr>
 <%
 try{
 connection = DriverManager.getConnection(connectionUrl+database, userid, password);
 statement=connection.createStatement();
-String sql ="select * from consultant ORDER BY country_seek ASC";
+String sql ="select * from consultant ORDER BY country_cons ASC";
 resultSet = statement.executeQuery(sql);
 while(resultSet.next()){
 %>
@@ -69,6 +73,8 @@ while(resultSet.next()){
 <td class="data1"><%=resultSet.getString("email_cons") %></td>
 
 <td class="data1"><%=resultSet.getString("job_cons") %></td>
+<td class="data1"><%=resultSet.getString("time") %></td>
+<td class="data1"><%=resultSet.getString("day") %></td>
 </tr>
 <%
 }
@@ -86,6 +92,8 @@ e.printStackTrace();
 <td class="data">Phone Number</td>
 <td class="data">Email</td>
 <td class="data">Country</td>
+<td class="data">Time</td>
+<td class="data">Day</td>
 
 
 </tr>
@@ -103,7 +111,8 @@ while(resultSet.next()){
 <td class="data1"><%=resultSet.getString("number_cons") %></td>
 <td class="data1"><%=resultSet.getString("email_cons") %></td>
 <td class="data1"><%=resultSet.getString("country_cons") %></td>
-
+<td class="data1"><%=resultSet.getString("time") %></td>
+<td class="data1"><%=resultSet.getString("day") %></td>
 </tr>
 <%
 }

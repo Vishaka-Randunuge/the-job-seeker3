@@ -46,7 +46,7 @@
                         -All job consultants are specialized on country and the type of job on which the job seekers need advice on<br>
                     Explore our web site now!</p>
 
-                    <a href="conshome.jsp"class="btn">Register</a> <a href="login.jsp"class="btn">Login</a>
+                    <a href="reg.jsp"class="btn">Register</a> <a href="login.jsp"class="btn">Login</a>
                 </div>  
             </div>
         </div>

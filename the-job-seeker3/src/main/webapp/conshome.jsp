@@ -38,8 +38,9 @@ ResultSet resultSet = null;
                       
                 <br><br>
                 <h3 align="center">Sort Preferences : 
-                <a href="#countrycon"class="btn">Countries</a>
-                <a href="#jobcon"class="btn">Jobs</a>
+
+                <a href="#countrycon"> <button class="btn">Countries</button></a>
+                <a href="#jobcon"> <button class="btn">Jobs</button></a>
                 </h3>   
 
 
