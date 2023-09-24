@@ -17,7 +17,6 @@
         <div class="navbar">
             <div class="row">
                 <div class="col-2">
-                    <br>
                     <h1>Welcome!  To The Jobs</h1>
                     <h2>Get to know about Us...</h2>
                     <p>We are consultation center in Colombo, founded in 2020. We provide consultation services 

@@ -42,7 +42,49 @@ body{
     font-weight: 500;
 
   }
+.containers{
+    max-width: 1400px;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col-2{
+    flex-basis: 45%;
+    min-width: 300px;
+    padding-top: 40px;
+    padding-left: 8px;
+}
 
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #0d6c81;
+    color: white;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background: #15a6c7;
+}
 .content form .user-details{
   display: flex;
   flex-wrap: wrap;
